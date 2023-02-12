@@ -1,5 +1,4 @@
 {
   "item.testmod.lapis_philosophorum": "Lapis Philosophorum",
-
-  "itemGroup.testmod.alchemy": "Alchemy"
+  "itemgroup.alchemy": "Alchemy"
 }

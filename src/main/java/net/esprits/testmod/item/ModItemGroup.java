@@ -8,8 +8,11 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup ALCHEMY = FabricItemGroup.builder(
-            new Identifier(TestMod.MOD_ID, "alchemy"))
-            .icon(() -> new ItemStack(ModItems.LAPIS_PHILOSOPHORUM))
-            .build();
+    public static ItemGroup ALCHEMY;
+
+    public static void registerItemGroups() {
+        ALCHEMY = FabricItemGroup.builder(new Identifier(TestMod.MOD_ID, "alchemy"))
+                .displayName(Text.translatable("itemgroup.alchemy"))
+                .icon(() -> new ItemStack(ModItems.LAPIS_PHILOSOPHORUM)).build();
+    }
 }

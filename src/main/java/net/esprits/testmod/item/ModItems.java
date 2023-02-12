@@ -11,22 +11,28 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    public static final Item LAPIS_PHILOSOPHORUM = registerItem("lapis_philosophorum",
+            new Item(new FabricItemSettings()));
 
-    public static final Item LAPIS_PHILOSOPHORUM = registerItem(
-            "lapis_philosophorum",
-            new Item(new Item.Settings()),
-            // For vanilla groups
-            //ItemGroups.FUNCTIONAL
-            // For modded groups
-            ModItemGroup.ALCHEMY
-    );
 
-    private static Item registerItem(String name, Item item, ItemGroup group) {
-        ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
+    private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(TestMod.MOD_ID, name), item);
+    }
+
+    public static void addItemsToItemGroup() {
+        // To add to vanilla groups
+        addToItemGroup(ItemGroups.TOOLS, LAPIS_PHILOSOPHORUM);
+
+        // To add to modded custom groups
+        addToItemGroup(ModItemGroup.ALCHEMY, LAPIS_PHILOSOPHORUM);
+    }
+
+    private static void addToItemGroup(ItemGroup group, Item item) {
+        ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
     }
 
     public static void registerModItems() {
         TestMod.LOGGER.debug("Registering Mod Items for " + TestMod.MOD_ID);
+        addItemsToItemGroup();
     }
 }
