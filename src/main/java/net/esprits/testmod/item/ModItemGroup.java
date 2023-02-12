@@ -13,6 +13,6 @@ public class ModItemGroup {
     public static void registerItemGroups() {
         ALCHEMY = FabricItemGroup.builder(new Identifier(TestMod.MOD_ID, "alchemy"))
                 .displayName(Text.translatable("itemgroup.alchemy"))
-                .icon(() -> new ItemStack(ModItems.LAPIS_PHILOSOPHORUM)).build();
+                .icon(() -> new ItemStack(ModItems.PHILOSOPHERS_STONE)).build();
     }
 }
