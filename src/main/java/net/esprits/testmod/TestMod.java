@@ -1,5 +1,6 @@
 package net.esprits.testmod;
 
+import net.esprits.testmod.block.ModBlocks;
 import net.esprits.testmod.item.ModItemGroup;
 import net.esprits.testmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,5 +15,6 @@ public class TestMod implements ModInitializer {
     public void onInitialize() {
         ModItemGroup.registerItemGroups();
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
     }
 }

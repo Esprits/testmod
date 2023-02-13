@@ -1,5 +1,6 @@
 {
   "item.testmod.philosophers_stone": "Philosopher's Stone",
   "item.testmod.blood": "Blood",
+  "block.testmod.blood_block": "Blood Block",
   "itemgroup.alchemy": "Alchemy"
 }

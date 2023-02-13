@@ -1,5 +1,6 @@
 {
   "item.testmod.philosophers_stone": "Pierre philosophale",
   "item.testmod.blood": "Sang",
+  "block.testmod.blood_block": "Bloc de sang",
   "itemgroup.alchemy": "Alchimie"
 }

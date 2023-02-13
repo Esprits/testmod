@@ -29,7 +29,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.ALCHEMY, BLOOD);
     }
 
-    private static void addToItemGroup(ItemGroup group, Item item) {
+    public static void addToItemGroup(ItemGroup group, Item item) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
     }
 
