@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "BUILDING_BLOCKS",
+  "ingredients": [
+    {
+      "item": "testmod:stripped_blood_tree_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "testmod:blood_tree_planks"
+  }
+}

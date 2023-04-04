@@ -2,5 +2,12 @@
   "item.testmod.philosophers_stone": "Philosopher's Stone",
   "item.testmod.blood": "Blood",
   "block.testmod.blood_block": "Blood Block",
+  "block.testmod.blood_tree_log": "Blood Tree Log",
+  "block.testmod.blood_tree_wood": "Blood Tree Wood",
+  "block.testmod.stripped_blood_tree_log": "Stripped Blood Tree Log",
+  "block.testmod.stripped_blood_tree_wood": "Stripped Blood Tree Wood",
+  "block.testmod.blood_tree_planks": "Blood Tree Planks",
+  "block.testmod.blood_tree_leaves": "Blood Tree Leaves",
+  "block.testmod.blood_tree_sapling": "Blood Tree Sapling",
   "itemgroup.alchemy": "Alchemy"
 }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:blood_tree_log",
+    "testmod:blood_tree_wood",
+    "testmod:stripped_blood_tree_log",
+    "testmod:stripped_blood_tree_wood"
+  ]
+}

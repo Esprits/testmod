@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "testmod",
   "version": "${version}",
-
   "name": "Test Mod",
   "description": "This a test Minecraft mod for me to test stuff since I am new at this :)",
   "authors": [
@@ -12,10 +11,8 @@
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/Esprits/testmod"
   },
-
   "license": "MIT License",
   "icon": "assets/testmod/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -23,12 +20,14 @@
     ],
     "client": [
       "net.esprits.testmod.TestModClient"
+    ],
+    "fabric-datagen": [
+      "net.esprits.testmod.TestModDataGenerator"
     ]
   },
   "mixins": [
     "testmod.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.11",
     "fabric-api": "*",

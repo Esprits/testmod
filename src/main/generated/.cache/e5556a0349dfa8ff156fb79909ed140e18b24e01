@@ -1,0 +1,9 @@
+// 1.19.3	2023-04-03T23:03:51.1775607	Test Mod/Block Loot Tables
+80f42cbe90d024de082d7a493b13b0acfd0d4970 data\testmod\loot_tables\blocks\stripped_blood_tree_wood.json
+ed74dab06983ae68b19d22ce09bff8fa6cbc29db data\testmod\loot_tables\blocks\blood_tree_wood.json
+8780e0a80bdb256e7c09cbbf7d54ad288926b4d6 data\testmod\loot_tables\blocks\blood_tree_planks.json
+e919b888025a5136170660ed2fad87224569c879 data\testmod\loot_tables\blocks\blood_tree_sapling.json
+458cba2494122f30f5edfa7b09118032e17302b6 data\testmod\loot_tables\blocks\blood_block.json
+62765178d4e6b237d579d9ce690db0d8b89264c0 data\testmod\loot_tables\blocks\stripped_blood_tree_log.json
+82fcf5502914bd37e8696be806a030b77fde1316 data\testmod\loot_tables\blocks\blood_tree_log.json
+b9d0c05a37090de3c92b45e30927430213eea47a data\testmod\loot_tables\blocks\blood_tree_leaves.json

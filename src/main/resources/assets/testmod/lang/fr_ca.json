@@ -2,5 +2,12 @@
   "item.testmod.philosophers_stone": "Pierre philosophale",
   "item.testmod.blood": "Sang",
   "block.testmod.blood_block": "Bloc de sang",
+  "block.testmod.blood_tree_log": "Bûche d'arbre de sang",
+  "block.testmod.blood_tree_wood": "Bois d'arbre de sang",
+  "block.testmod.stripped_blood_tree_log": "Bûche d'arbre de sang écorcée",
+  "block.testmod.stripped_blood_tree_wood": "Bois d'arbre de sang écorcé",
+  "block.testmod.blood_tree_planks": "Planches d'arbre de sang",
+  "block.testmod.blood_tree_leaves": "Feuilles d'arbre de sang",
+  "block.testmod.blood_tree_sapling": "Pousse d'arbre de sang",
   "itemgroup.alchemy": "Alchimie"
 }
